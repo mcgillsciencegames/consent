@@ -50,17 +50,8 @@
     <!-- Login Section -->
     <section id="login" class="content-section text-center">
       <div class="container login-container rainbow-border">
-        <form>
-          <div class="form-group">
-            <label class="form-label rainbow" for="exampleInputEmail1">Email</label>
-            <input type="email" class="form-control email normal-text" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-          </div>
-          <div class="form-group">
-            <label class="form-label rainbow" for="exampleInputPassword1">Password</label>
-            <input type="password" class="form-control password normal-text" id="exampleInputPassword1" placeholder="Password">
-          </div>
         </form>
-        <button type="submit" onclick="login()" class="btn login-btn rainbow">Submit</button>
+        <button type="submit" onclick="login()" class="btn login-btn rainbow">Begin</button>
       </div>
     </section>
 
@@ -70,7 +61,7 @@
         <div class="row">
           <div class="col-lg-12 mx-auto">
             <video id="waiverVideo" onended="videoEnd()" ontimeupdate="progressBar()">
-              <source src="waiver_video/hype_2018.mov" type="video/mp4">
+              <source src="waiver_video/waiver_hype.mp4" type="video/mp4">
             </video>
             <p><i><sup>*</sup>You must finish watching the video to continue</i></p>
           </div>
@@ -92,7 +83,7 @@
       <div class="container waiver-container rainbow-border">
         <h1>Assumption of Responsibility, Rules, Risks and Liability Waiver and Non-Disclosure Agreement</h1>
         <h3><u>Assumption of Risks & Assumption of Responsibility / Rules</u></h3>
-        <h5>I, the undersigned, acknowledge that there are potential risks inherent in my participation in Hype Week 2018, held from January 14th 2018 to January 20th 2018 (the “Event”). I acknowledge and accept all of the following terms and conditions of participating in the Event:</h5>
+        <h5>I, the undersigned, acknowledge that there are potential risks inherent in my participation in Hype Week 2018, held from November 5th 2018 to November 9th 2018 (the “Event”). I acknowledge and accept all of the following terms and conditions of participating in the Event:</h5>
         <h3><u>Values and Mentality</u></h3>
         <h5>I acknowledge that the first and foremost goal of Hype Week 2018 is to raise funds for the battle against cancer. I acknowledge that the values that Hype Week projects and encompasses are equity, respect, friendship, and school spirit. I acknowledge that, as a participant of the Event, I will abide by and act according to these values. This includes, but is not limited to, treating each participant and stakeholder (the McGill community, venues, sponsors, and the Montreal community as a whole) with complete respect, avoiding any and all conflict, and acknowledging that every participant and aforementioned stakeholder is first and foremost a friend, regardless of whether or not they are on an opposing “Hype Week team”. I acknowledge that all participants and stakeholders are working towards a common goal to raise funds for the battle against cancer, and that I will not create any impediments that would put this cause at risk. I additionally recognize that as a Hype Week participant, I will represent these values in my public attire. I will only wear my participant t-shirt inside out while on campus, and will not write anything promoting violence, sexism, or racism on my shirt.
 
@@ -119,43 +110,9 @@
     <!-- Form Section -->
     <section id="waiver" class="waiver-section text-center hide">
       <div class="container login-container rainbow-border">
-        <form>
-          <div class="form-group">
-            <label class="form-label rainbow" for="name">Participant Name</label>
-            <input type="name" class="form-control name normal-text" id="name" aria-describedby="emailHelp" placeholder="Name">
-          </div>
-          <div class="form-group">
-            <label class="form-label rainbow" for="address">Address</label>
-            <input type="address" class="form-control address normal-text" id="address" placeholder="Address">
-          </div>
-          <div class="form-group">
-            <label class="form-label rainbow" for="telephone">Telephone</label>
-            <input type="tel" class="form-control telephone normal-text" id="telephone" placeholder="Telephone">
-          </div>
-          <div class="form-group">
-            <label class="form-label rainbow" for="birthday">Birthday</label>
-            <input type="date" max="2000-01-13" class="form-control birthday normal-text" id="birthday" placeholder="Birthday">
-            <p><i><sup>*</sup>Must be 18 years of age or older</i></p>
-          </div>
-          <!--<div class="form-group">-->
-            <!--<label class="form-label rainbow" for="date">Today's Date</label>-->
-            <!--<input type="date" class="form-control date" id="date" placeholder="">-->
-          <!--</div>-->
-        </form>
-        <button type="submit" onclick="submitWaiver()" class="btn login-btn rainbow">Submit</button>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdYmL5Vj3zAy_ezDRsPttM5NQJ4VaKXsA_FwBHD-U2EFf0eFw/viewform?embedded=true" width="640" height="872" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
       </div>
     </section>
-    <header class="masthead thank-you hide">
-      <div class="intro-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h3 class="brand-subheading thank-you-note">Thank you for completing the Hype Week 2018 waiver!</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
 
     <!-- Firebase -->
     <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
