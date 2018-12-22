@@ -1,4 +1,4 @@
-# Carnival Waiver Website
+# Science Games Consent Waiver Website
 
 [Grayscale](http://startbootstrap.com/template-overviews/grayscale/) template used.
 
